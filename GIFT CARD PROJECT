@@ -1,0 +1,37 @@
+-- SQL PROJECT
+-- AMAZON GIFT CARD PROJECT
+
+CREATE TABLE sales (
+
+Company_Name VARCHAR(100) NOT NULL PRIMARY KEY,
+State VARCHAR(2) DEFAULT 'NA',
+Account_fname VARCHAR(100) DEFAULT 'US_Sales',
+Account_lname VARCHAR(100) DEFAULT 'US_Sales',
+Order_type VARCHAR(100)  DEFAULT 'NA',
+Order_date DATE,
+Order_amount FLOAT(10,2),
+Contact_Per VARCHAR(100)
+);
+
+INSERT INTO sales(Company_Name)
+VALUES 
+('Goblin Softwares'),
+('Marble Technologies'),
+('Hurricane Coms'),
+('Topiarytelligence'),
+('Pinnaclelectrics'),
+('Goblintelligence'),
+('Mountainetworks'),
+('Cavernshadow'),
+('Ridgeware'),
+('Hookdale'),
+('Aura Foods'),
+('Ridge Microsystems'),
+('Flux Systems'),
+('Karmarts'),
+('Timberecords'),
+('Greenetworks'),
+('Stormedia'),
+('Bullgate'),
+('Dwarfwater'),
+('Mermaidex');
